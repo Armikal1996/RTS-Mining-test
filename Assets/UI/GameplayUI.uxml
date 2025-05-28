@@ -1,0 +1,18 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:VisualElement style="flex-grow: 0; flex-direction: row;">
+        <engine:VisualElement style="flex-grow: 1; flex-direction: row; align-items: stretch; justify-content: space-around;">
+            <engine:Label text="red score" name="RedStrengthLabel" style="font-size: 18px; -unity-font-style: bold;" />
+            <engine:Label text="blue score" name="BlueStrengthLabel" style="-unity-font-style: bold; font-size: 18px;" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+    <engine:VisualElement style="flex-grow: 1;">
+        <engine:VisualElement style="flex-grow: 1; position: absolute; left: auto; bottom: 10px; right: auto; flex-direction: row; width: 100%; align-items: stretch; justify-content: space-around; align-self: center; align-content: center; height: 40px; flex-wrap: nowrap;">
+            <engine:SliderInt value="2" high-value="5" low-value="1" name="NumberofDronesSlider" style="flex-grow: 1;" />
+            <engine:SliderInt value="3" high-value="10" low-value="1" name="DronesSpeedSlider" style="flex-grow: 1;" />
+        </engine:VisualElement>
+        <engine:VisualElement style="flex-grow: 1; position: absolute; left: auto; bottom: 0; right: auto; flex-direction: row; width: 100%; align-items: stretch; justify-content: space-around; align-self: center; align-content: center; height: 30px; flex-wrap: nowrap;">
+            <engine:Label text="Number of Drones" style="-unity-font-style: bold; font-size: 18px;" />
+            <engine:Label text="Drone Speed" style="font-size: 18px; -unity-font-style: bold;" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>
